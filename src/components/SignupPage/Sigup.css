@@ -1,0 +1,106 @@
+.sign-up {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 1em; */
+  color: black;
+}
+.intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* padding-bottom: 3rem; */
+}
+.intro-container {
+  background-image: url(../../assets/signup.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%;
+    height: 100%; */
+  /* margin-bottom: 3rem; */
+  padding: 3em 0 0 3em;
+}
+.intro-container .text {
+  padding-top: 15em;
+  width: 65%;
+}
+.text h1 {
+  font-size: 32px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.text p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.info {
+  width: 100%;
+  margin-top: 3.5em;
+  padding-left: 5em;
+}
+.info h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 0.25em;
+}
+.info p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.info p a {
+  color: #565454;
+  text-decoration: underline;
+}
+form {
+  margin-top: 1.5em;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  gap: 3px;
+  padding-bottom: 15px;
+}
+.user-info label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-info input {
+  padding: 10px 8px;
+  width: 60%;
+  outline: none;
+  border: 2px solid #3c3c4399;
+  border-radius: 8px;
+}
+form p {
+  width: 50%;
+  font-family: "Avenir", sans-serif;
+  color: #0f172a;
+}
+.privacy {
+  padding-block: 5px 30px;
+}
+.info button {
+  background: #334aaa;
+  color: white;
+  font-size: 16px;
+  font-family: "Satoshi", sans-serif;
+  /* font-weight: 700; */
+  padding: 10px 50px;
+  border-radius: 20px;
+  outline: white;
+}
+.options {
+  padding-top: 30px;
+}
+.options p {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
